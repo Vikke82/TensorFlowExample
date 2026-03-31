@@ -42,12 +42,11 @@ android {
 
 dependencies {
 
+    // TensorFlow Lite - kevyt koneoppimiskirjasto Android-laitteille
+    implementation("org.tensorflow:tensorflow-lite:2.17.0")
 
-    implementation("org.tensorflow:tensorflow-lite:2.17.0") // Päivitetty versio
-    //implementation("org.tensorflow:tensorflow-lite-support:2.18.0") // TFLite-tuki
-    //implementation("org.tensorflow:tensorflow-lite-support:2.17.0")
-    //implementation("org.tensorflow:tensorflow-lite-metadata:2.17.0")
-
+    // ViewModel Compose -integraatio: mahdollistaa ViewModelin käytön Composable-funktioissa
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
