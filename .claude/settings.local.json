@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find . -not -path ./.git/* -not -path ./.gradle/* -not -path ./.idea/* -not -path ./build/*)"
+    ]
+  }
+}
